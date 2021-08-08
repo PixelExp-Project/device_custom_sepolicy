@@ -26,3 +26,6 @@ get_prop(platform_app, exported_audio_prop)
 
 # Allow theme_prop to be read by system ui
 get_prop(platform_app, theme_prop)
+
+# For Datura to set persist.sys.global.cleartext
+set_prop(platform_app, system_exported_cleartext_prop)
